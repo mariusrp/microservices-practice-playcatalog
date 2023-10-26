@@ -15,7 +15,7 @@ namespace Play.Catalog.Service.Controllers {
     {
 
       private readonly ItemsRepository itemsRepository = new();
-
+      
 
       [HttpGet]
       public async Task<IEnumerable<ItemDto>> GetAsync()
@@ -25,7 +25,7 @@ namespace Play.Catalog.Service.Controllers {
         return items;
       }
 
-      [HttpGet("{id}")]
+      [HttpGet("{id}", Name="GetItemByID")]
       public async Task<ActionResult<ItemDto>> GetByIdAsync(Guid id) 
       {
         var item = await itemsRepository.GetItemAsync(id);
@@ -45,7 +45,8 @@ namespace Play.Catalog.Service.Controllers {
         };
         await itemsRepository.CreateAsync(item);
 
-        return CreatedAtAction(nameof(GetByIdAsync), new {id = item.Id}, item);
+
+        return CreatedAtAction("GetItemById", new {id = item.Id}, item);
       }
 
       [HttpPut("{id}")]
@@ -71,7 +72,7 @@ namespace Play.Catalog.Service.Controllers {
         if (item == null) {
           return NotFound();
         }
-        await itemsRepository.DeleteAsync(id);
+        await itemsRepository.RemoveAsync(id);
         return NoContent();
       }
     }

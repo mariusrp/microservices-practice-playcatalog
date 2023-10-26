@@ -31,3 +31,16 @@
 /Users/mariusphillips/Documents/code/playground/C#/microservices-practice/src/Play.Catalog.Service/obj/Debug/net7.0/Play.Catalog.Service.pdb
 /Users/mariusphillips/Documents/code/playground/C#/microservices-practice/src/Play.Catalog.Service/obj/Debug/net7.0/Play.Catalog.Service.genruntimeconfig.cache
 /Users/mariusphillips/Documents/code/playground/C#/microservices-practice/src/Play.Catalog.Service/obj/Debug/net7.0/ref/Play.Catalog.Service.dll
+/Users/mariusphillips/Documents/code/playground/C#/microservices-practice/src/Play.Catalog.Service/bin/Debug/net7.0/AWSSDK.Core.dll
+/Users/mariusphillips/Documents/code/playground/C#/microservices-practice/src/Play.Catalog.Service/bin/Debug/net7.0/AWSSDK.SecurityToken.dll
+/Users/mariusphillips/Documents/code/playground/C#/microservices-practice/src/Play.Catalog.Service/bin/Debug/net7.0/DnsClient.dll
+/Users/mariusphillips/Documents/code/playground/C#/microservices-practice/src/Play.Catalog.Service/bin/Debug/net7.0/MongoDB.Bson.dll
+/Users/mariusphillips/Documents/code/playground/C#/microservices-practice/src/Play.Catalog.Service/bin/Debug/net7.0/MongoDB.Driver.dll
+/Users/mariusphillips/Documents/code/playground/C#/microservices-practice/src/Play.Catalog.Service/bin/Debug/net7.0/MongoDB.Driver.Core.dll
+/Users/mariusphillips/Documents/code/playground/C#/microservices-practice/src/Play.Catalog.Service/bin/Debug/net7.0/MongoDB.Libmongocrypt.dll
+/Users/mariusphillips/Documents/code/playground/C#/microservices-practice/src/Play.Catalog.Service/bin/Debug/net7.0/SharpCompress.dll
+/Users/mariusphillips/Documents/code/playground/C#/microservices-practice/src/Play.Catalog.Service/bin/Debug/net7.0/Snappier.dll
+/Users/mariusphillips/Documents/code/playground/C#/microservices-practice/src/Play.Catalog.Service/bin/Debug/net7.0/ZstdSharp.dll
+/Users/mariusphillips/Documents/code/playground/C#/microservices-practice/src/Play.Catalog.Service/bin/Debug/net7.0/runtimes/linux/native/libmongocrypt.so
+/Users/mariusphillips/Documents/code/playground/C#/microservices-practice/src/Play.Catalog.Service/bin/Debug/net7.0/runtimes/osx/native/libmongocrypt.dylib
+/Users/mariusphillips/Documents/code/playground/C#/microservices-practice/src/Play.Catalog.Service/bin/Debug/net7.0/runtimes/win/native/mongocrypt.dll

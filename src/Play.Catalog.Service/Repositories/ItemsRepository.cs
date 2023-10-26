@@ -14,11 +14,11 @@ namespace Play.Catalog.Service.Repositories
             var mongoClient = new MongoClient("mongodb://localhost:27017");
             var database = mongoClient.GetDatabase("Catalog");
             dbCollection = database.GetCollection<Item>(collectionName);
-
         }
 
         public async Task<IReadOnlyCollection<Item>> GetAllAsync() {
-            return await dbCollection.Find(filterBuilder.Empty).ToListAsync();
+            FilterDefinition<Item> filter = filterBuilder.Empty;
+            return await dbCollection.Find(filter).ToListAsync();
         }
 
         public async Task<Item> GetItemAsync(Guid id) {
